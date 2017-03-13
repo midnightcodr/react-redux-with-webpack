@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
 
 class App extends Component {
-    constructor(props) {
+    message = 'default message'
+    // equivalent to the following
+    /*constructor(props) {
         super(props)
         this.message = 'default message'
-    }
+    }*/
 
     onClick = (e) => {
         alert(this.message)
